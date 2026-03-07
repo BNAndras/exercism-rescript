@@ -1,0 +1,32 @@
+{
+  "docs": [
+    {
+      "uuid": "c4a14aa6-df8c-4b92-ad5c-b49db369a625",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing ReScript locally",
+      "blurb": "Learn how to install ReScript locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "e1a1d9bc-6d6f-4104-b441-5ffa05d09952",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn ReScript",
+      "blurb": "An overview of how to get started from scratch with ReScript"
+    },
+    {
+      "uuid": "ea323c48-e6ca-40f9-8d1b-72a58c467777",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the ReScript track",
+      "blurb": "Learn how to test your ReScript exercises on Exercism"
+    },
+    {
+      "uuid": "cf2674ca-a24f-497c-a688-d0caf74603f0",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful ReScript resources",
+      "blurb": "A collection of useful resources to help you master ReScript"
+    }
+  ]
+}

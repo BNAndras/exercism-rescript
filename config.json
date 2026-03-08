@@ -8,23 +8,87 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "TODO: add blurb",
+  "blurb": "ReScript is a strongly typed functional language which compiles to both Javascript and native.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 2,
+    "highlightjs_language": "reasonml"
+  },
+  "test_runner": {
+    "average_run_time": 7
   },
   "files": {
-    "solution": [],
-    "test": [],
-    "example": [],
-    "exemplar": []
+    "solution": [
+      "src/%{pascal_slug}.res"
+    ],
+    "test": [
+      "tests/%{pascal_slug}_test.res"
+    ],
+    "example": [
+      ".meta/%{pascal_slug}.res"
+    ],
+    "exemplar": [
+      ".meta/src/%{pascal_slug}.res"
+    ],
+    "editor": [
+      "src/%{pascal_slug}.resi"
+    ]
   },
   "exercises": {
-    "concept": [],
-    "practice": []
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "63d72b81-c7a4-4a94-8224-69f4c68cc374",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
   },
-  "concepts": [],
-  "key_features": [],
-  "tags": []
+  "key_features": [
+    {
+      "title": "OCaml's type system",
+      "content": "ReScript brings OCaml's battle-tested powerful type system to JavaScript.",
+      "icon": "stable"
+    },
+    {
+      "title": "Inferred types",
+      "content": "Types are inferred by the ReScript compiler and are guaranteed to be correct.",
+      "icon": "immutable"
+    },
+    {
+      "title": "Functional Programming",
+      "content": "Like OCaml, ReScript is a functional programming language with pattern matching, variants and more.",
+      "icon": "functional"
+    },
+    {
+      "title": "JavaScript interop",
+      "content": "JavaScript interoperability is easy, allowing existing JavaScript packages to be used.",
+      "icon": "interop"
+    },
+    {
+      "title": "Fast compiler",
+      "content": "ReScript compilation times are super fast which means fast iteration cycles.",
+      "icon": "fast"
+    },
+    {
+      "title": "Refactor with ease",
+      "content": "Compiler guides you through all places that need to be fixed during refactor until it just works.",
+      "icon": "fun"
+    }
+  ],
+  "tags": [
+    "execution_mode/compiled",
+    "paradigm/functional",
+    "platform/linux",
+    "platform/mac",
+    "platform/web",
+    "platform/windows",
+    "typing/static",
+    "typing/strong",
+    "used_for/frontends",
+    "used_for/web_development"
+  ]
 }

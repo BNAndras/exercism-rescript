@@ -32,9 +32,6 @@
     "exemplar": [
       ".meta/src/%{pascal_slug}.res",
       ".meta/src/%{pascal_slug}.resi"
-    ],
-    "editor": [
-      "src/%{pascal_slug}.resi"
     ]
   },
   "exercises": {
@@ -75,6 +72,14 @@
         "slug": "pangram",
         "name": "Pangram",
         "uuid": "ed0c465d-3561-464d-80ed-6541b2ec9410",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "272561cb-886b-483f-8db7-cf1c6149baeb",
         "practices": [],
         "prerequisites": [],
         "difficulty": 2

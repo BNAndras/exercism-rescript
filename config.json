@@ -72,6 +72,14 @@
         "difficulty": 2
       },
       {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "0e11b69e-9339-4f06-9626-ab7c96f66bce",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "two-fer",
         "name": "Two-Fer",
         "uuid": "2a03dbf7-5aae-4859-8fde-b51c11cab02f",

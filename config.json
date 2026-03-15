@@ -20,7 +20,8 @@
   },
   "files": {
     "solution": [
-      "src/%{pascal_slug}.res"
+      "src/%{pascal_slug}.res",
+      "src/%{pascal_slug}.resi"
     ],
     "test": [
       "tests/%{pascal_slug}_test.res"

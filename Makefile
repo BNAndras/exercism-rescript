@@ -93,7 +93,7 @@ generate-tests:
 		echo "-> Running template: $$template"; \
 		node $$template || exit 1; \
 	done
-	@echo "Formatting files"
+	@echo "Formatting tests"
 	npm run res:format-fix
 	@echo "All tests generated and formatted successfully."
 

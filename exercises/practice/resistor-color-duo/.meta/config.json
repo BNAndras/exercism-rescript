@@ -4,13 +4,15 @@
   ],
   "files": {
     "solution": [
-      "src/ResistorColorDuo.res"
+      "src/ResistorColorDuo.res",
+      "src/ResistorColorDuo.resi"
     ],
     "test": [
       "tests/ResistorColorDuo_test.res"
     ],
     "example": [
-      ".meta/ResistorColorDuo.res"
+      ".meta/ResistorColorDuo.res",
+      ".meta/ResistorColorDuo.resi"
     ],
     "editor": [
       "src/ResistorColorDuo.resi"
